@@ -42,6 +42,8 @@ print(myobjectx.variable)
 # each object contains independent copies of the variables defined in the class. For instance, 
 # if we were to define another object with the "MyClass" class and then change the string in the variable above:
 
+
+'''
 class MyClass:
     variable = "blah"
 
@@ -56,3 +58,18 @@ myobjecty.variable = "yackity"
 # Then print out both values
 print(myobjectx.variable)
 print(myobjecty.variable)
+'''
+
+# Accessing object functions
+
+# to access a function inside of an object you use notation similar to accessing a variable
+
+class MyClass:
+    variable = "blah"
+
+    def function(self):
+        print("This is a message inside the class.")
+
+myobjectx = MyClass()
+
+myobjectx.function()
