@@ -18,3 +18,8 @@
 
 # Modules are imported from other modules using the import command.
 #  In this example, the game.py script may look something like this: (in the game.py file)
+
+
+
+# Modules are individual Python files.
+# Packages are directories that contain multiple related modules.
